@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS = -I\/usr\/X11R6\/include$/;"	m
+LDLIBS	Makefile	/^LDLIBS = -L\/usr\/X11R6\/lib -lglut -lGLU -lGL -lm $/;"	m
+MAXPOINTS	prog1.c	3;"	d	file:
+OBJ	Makefile	/^OBJ = helloglut.o$/;"	m
+OBJ	Makefile	/^OBJ = prog1.o$/;"	m
+OBJ	Makefile	/^OBJ = prog2.o$/;"	m
+color	prog2.c	/^GLdouble color[][3] = {$/;"	v
+display	helloglut.c	/^void display(void)$/;"	f
+display	prog1.c	/^void display(void)$/;"	f
+display	prog2.c	/^void display(void)$/;"	f
+edge	prog2.c	/^int edge[][2] = {$/;"	v
+face	prog2.c	/^int face[][4] = $/;"	v
+idle	prog2.c	/^void idle(void)$/;"	f
+init	helloglut.c	/^void init(void)$/;"	f
+init	prog1.c	/^void init(void)$/;"	f
+init	prog2.c	/^void init(void)$/;"	f
+keyboard	prog1.c	/^void keyboard(unsigned char key, int x, int y)$/;"	f
+keyboard	prog2.c	/^void keyboard(unsigned char key, int x, int y)$/;"	f
+main	helloglut.c	/^int main(int argc, char *argv[])$/;"	f
+main	prog1.c	/^int main(int argc, char *argv[])$/;"	f
+main	prog2.c	/^int main(int argc, char *argv[])$/;"	f
+motion	prog1.c	/^void motion(int x, int y)$/;"	f
+mouse	prog1.c	/^void mouse(int button, int state, int x, int y)$/;"	f
+mouse	prog2.c	/^void mouse(int button, int state, int x, int y)$/;"	f
+point	prog1.c	/^GLint point[MAXPOINTS][2]; \/* 座標を記憶する配列 *\/$/;"	v
+pointnum	prog1.c	/^int pointnum = 0;          \/* 記憶した座標の数　 *\/$/;"	v
+resize	prog1.c	/^void resize(int w, int h)$/;"	f
+resize	prog2.c	/^void resize(int w, int h)$/;"	f
+rubberband	prog1.c	/^int rubberband = 0; \/* ラバーバンドの消去 *\/$/;"	v
+vertex	prog2.c	/^GLdouble vertex[][3] = {$/;"	v
